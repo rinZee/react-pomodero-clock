@@ -8,17 +8,11 @@ import { faMinus, faPlus, faPlay, faUndo } from '@fortawesome/free-solid-svg-ico
 const App = () => {
   const [breakLength, setBreakLength] = useState(5);
   const [sessionLength, setSessionLength] = useState(25);
-  const [clockCount, setClockCount] = useState(25*60);
-
-const convertToTime = (count) => {
-  const minutes = Math.floor(count / 60);
-  let seconds = count % 60;
-  return `${minutes}:${seconds}`
-}
 
   return (
     <div className="App">
-      <div className="flex">
+      <h1>hello</h1>
+      {/* <div className="flex">
       <div id='break-label' className='timer-container'>
             <h1>Break Length</h1>
             <div className='action-wrapper'>
@@ -61,7 +55,7 @@ const convertToTime = (count) => {
 
         </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
