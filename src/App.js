@@ -11,8 +11,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>hello</h1>
-      {/* <div className="flex">
+      <div className="flex">
       <div id='break-label' className='timer-container'>
             <h1>Break Length</h1>
             <div className='action-wrapper'>
@@ -55,7 +54,7 @@ const App = () => {
 
         </div>
         </div>
-      </div> */}
+      </div> 
     </div>
   )
 }
