@@ -1,6 +1,8 @@
 {
-    "emmet.extensionsPath": "",
     "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-     }
+        "javascript": "javascriptreact",
+        "razor": "html",
+        "plaintext": "pug"
+    },
+    "emmet.extensionsPath": ""
 }
